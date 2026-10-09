@@ -1,0 +1,6 @@
+# Profile patch layer contributed by this bundle: insert the interceptor once,
+# at the profile root (host plane). It wraps the process-wide `llm/stream`
+# waterfall, so it also covers compaction backends mounted inside agent presets.
+- insert:
+    - id: compact-selected-model
+      name: dsh-compact-selected-model
