@@ -1,6 +1,6 @@
 {
   "name": "dsh-compact-selected-model",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "DeepSeek Harness plugin: /compact and auto-compaction summarize with the model currently selected in the session, not the model that finished the last turn",
   "keywords": [
     "deepseek-harness",
@@ -41,8 +41,8 @@
   },
   "peerDependencies": {
     "@deepseek-ai/cordis": "^4.0.1",
-    "@deepseek-ai/dsh-llm": ">=0.1.7-rc.1 <0.3.0-0",
-    "@deepseek-ai/dsh-api-session-controller": ">=0.1.7-rc.1 <0.3.0-0"
+    "@deepseek-ai/dsh-llm": ">=0.1.7-rc.1 <0.2.0-0 || >=0.2.0-0 <0.3.0-0",
+    "@deepseek-ai/dsh-api-session-controller": ">=0.1.7-rc.1 <0.2.0-0 || >=0.2.0-0 <0.3.0-0"
   },
   "peerDependenciesMeta": {
     "@deepseek-ai/cordis": {
